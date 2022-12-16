@@ -12,6 +12,7 @@ steps {
 
 
   echo "cloning the code from github repo"
+  git branch: 'main', url: 'https://github.com/BecomeDevops/teamrepo.git'
 
       }
 
