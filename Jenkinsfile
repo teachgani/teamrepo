@@ -43,6 +43,8 @@ echo "Testing the code"
 
 
 }
+  
+}
 
   stage('code quality anaylsis') {
   
@@ -57,7 +59,7 @@ echo "Testing the code"
 
 
 
-}
+
 
 
 stage('Deploy') {
