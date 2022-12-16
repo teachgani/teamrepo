@@ -44,7 +44,16 @@ echo "Testing the code"
 
 }
 
-
+  stage('code quality anaylsis') {
+  
+  
+    steps {
+    
+    echo "performing code quality analysis (sonar)"
+    
+    }
+  
+  }
 
 
 
